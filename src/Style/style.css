@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: rgb(128, 121, 126);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(128, 121, 126, 1) 0%,
+    rgba(122, 84, 113, 1) 60%,
+    rgba(163, 22, 96, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(128, 121, 126, 1) 0%,
+    rgba(122, 84, 113, 1) 60%,
+    rgba(163, 22, 96, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(128, 121, 126, 1) 0%,
+    rgba(122, 84, 113, 1) 60%,
+    rgba(163, 22, 96, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#80797e",endColorstr="#a31660",GradientType=1);
+  font-family: "Poppins", sans-serif;
+}
+
+.img-astolfo {
+    object-fit: cover;
+    margin-top: 60px;
+    width: 420px;
+}
+
+.all-item {
+    margin-top: 20px;
+}
+
+.Header {
+    border-radius: 14px;
+}
+
+.button-container {
+    border-radius: 14px;
+}
+
+.footer {
+    border-radius: 14px;
+}
+
+.old-web-button {
+    border-right: solid 1.5px #a05470;
+    padding-right: 15px;
+}
+
+.old-web-button a {
+    padding: 7px;
+    border-radius: 14px;
+    transition: all 0.2s ease;
+}
+
+.old-web-button a:hover {
+    box-shadow: 0 0 10px #a05470;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.links-web-button a {
+    padding: 7px;
+    border-radius: 14px;
+    transition: all 0.2s ease;
+}
+
+.links-web-button a:hover {
+    box-shadow: 0 0 10px #a05470;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.blog-web-button {
+    border-left: solid 1.5px #a05470;
+    padding-left: 15px;
+}
+
+.blog-web-button a {
+    padding: 7px;
+    border-radius: 14px;
+    transition: all 0.3s;
+}
+
+.blog-web-button a:hover {
+    box-shadow: 0 0 10px #a05470;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+@media screen and (max-width: 768px) {
+    .img-astolfo {
+        width: 380px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .img-astolfo {
+        margin-top: 0px;
+    }
+}
